@@ -1,0 +1,49 @@
+
+=============================
+=  README for ex5: Carrots
+
+login:matan.halfon, omri.yavne
+ID number:205680648, 316520097
+Name:Matan Halfon, Omri Yavne
+i disscused the ex with:
+Liron Gershoni,Raz Karl, Tal bambrger
+
+=============================== Description: 
+1) the program crossword :
+the program searches for word from a word 
+list in a 2d matrix. The matrix file is 
+divided for list of lists .the program searches
+for words from right to left
+afterwars, the the matrix is rotated
+in 90, 180, and 270 degrees, so all 
+the directions for the serching will
+be available.
+In this program, we can also search for
+words in the matrix in diagonal,
+and rotate the matrix again, so we can search 
+in 4 directions of diagonal.
+the program is set up to get arguments from 
+a terminal, and parses the argment by sys.argv.
+Then, checks if they exist. 
+if they don't, the progrm will respond with
+an ERROR message.after that the progrm will
+open a file and, will bring the words
+that were found into this file.
+2)the program crossword3d:
+the program searches for worda from a 
+list in a 3d matrix.
+the program parses the 3d matrix by the 
+appearances of "***" and parses it to 
+a list that contain 2d matrix, that include 
+list for row.
+the program seraches in the directions of:
+deep search, length and width.
+the program activates from the terminal using
+sys libery and os.
+if one of the arguments are not legel the program
+return an ERROR message. 
+if it is legal,it opens the upload file 
+and writes the words that were found
+into it.  
+
+
